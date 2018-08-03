@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <style>
+    /* h1 {
+      text-align: center;
+    } */
+
+    /* Style the tab */
+    /* .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    } */
+
+    /* Style the buttons that are used to open the tab content */
+    /* .tab a {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        text-decoration: none;
+        color: black;
+    } */
+
+    /* Change background color of buttons on hover */
+    /* .tab a:hover {
+        background-color: #ddd;
+    } */
+
+    /* Create an active/current tablink class */
+    /* a.currentPage{
+        background-color: #ccc;
+    } */
+
+    /* Style the tab content */
+
+
+
+/* body {
+    margin: 0;
+    font-family: Arial;
+} */
+/*
+.header {
+    text-align: center;
+    padding: 32px;
+} */
+
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 33%; /* IE 10 */
+    flex: 33%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+    #mission_statement{
+      padding:12px;
+      text-align: center;
+    }
+    .section_heading{
+      padding:4px;
+      margin:0px;
+      background-color:black;
+      color:white;
+      margin-top:10px;
+      width:100%;
+    }
+    /* code for fade out */
+    .container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/* .container img{
+  box-shadow: 5px 5px 3px grey;
+} */
+/*
+.container img:hover{
+  box-shadow: none;
+} */
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="info.html">Information</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="selftips.html">Tips</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+      </div>
+    </header>
+    <content>
+      <div id="mission_statement">
+        <h2>Mission Statement</h2>
+        <p>The goal of <em>Smile</em> is to help and support people with depression by encouraging them to partake and engage in activities that empower them to fight and overcome their depression. </p>
+      </div>
+
+      <h3 class="section_heading">Exercise</h3>
+        <div class="row">
+          <div class="column">
+            <!-- soccer -->
+            <a href="http://norcalpremier.com/clubs/" target="_blank">
+              <div class="container">
+                <img src="https://s23527.pcdn.co/wp-content/uploads/2014/07/RobertCianfloneSoccerInstagram.jpg.optimal.jpg" style="width:100%" alt="two boys playing soccer on the beach">
+                <div class="middle">
+                  <div class="text">Soccer</div>
+                </div>
+              </div>
+            </a>
+
+            <!-- running -->
+            <a href="https://www.trailrunproject.com/directory/8007188/bay-area" target="_blank">
+              <div class="container">
+                <img src="https://i.pinimg.com/564x/1c/c0/37/1cc037d32e22718f9ee30a8a2f6e32b8.jpg" style="width:100%" alt="running shoes">
+                <div class="middle">
+                  <div class="text">Run</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+
+          <div class="column">
+
+            <!-- rock climbing -->
+            <a href="https://www.mountainproject.com/area/105733851/san-francisco-bay-area" target="_blank">
+              <div class="container">
+                <img src="https://media.istockphoto.com/photos/climber-woman-standing-in-front-of-a-stone-rock-outdoor-picture-id480310380?k=6&m=480310380&s=612x612&w=0&h=Xg1QTyKaLwJ_jPACoHMI5I2X6URyfSoUpu0wQ2jCd-M=" style="width:100%" alt="rock climber looking up at wall of rocks">
+                <div class="middle">
+                  <div class="text">Rock Climb</div>
+                </div>
+              </div>
+            </a>
+
+            <!-- smimming -->
+            <a href="https://www.hipcamp.com/journal/explore/the-best-swimming-holes-in-the-bay-area-period" target="_blank">
+              <div class="container">
+                <img src="https://cdn1.blovcdn.com/bloglovin/aHR0cCUzQSUyRiUyRmZhc2hpb24tdXRvcGlhLmNvbSUyRndwLWNvbnRlbnQlMkZ1cGxvYWRzJTJGMjAxNSUyRjExJTJGMTY3ODUxMzkxMzgxMzg4XzgwMC5qcGc=?checksum=1a93247de7b9b5154d104b414dd752970c4fb9d8&format=j" style="width:100%" alt="woman making a graceful pose underwater">
+                <div class="middle">
+                  <div class="text">Swim</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+
+          <div class="column">
+
+            <!-- dancing -->
+            <a href="http://www.dancemaven.com/" target="_blank">
+              <div class="container">
+                <img src="https://static1.squarespace.com/static/5795cf998419c25e8f0a88f2/57f7bed19de4bb9c979d09ad/57f7bef41b631bd670ea4972/1475854071991/PowderDance1.jpg?format=1000w" style="width:100%" alt="woman dancing">
+                <div class="middle">
+                  <div class="text">Dance</div>
+                </div>
+              </div>
+            </a>
+
+            <!-- weightlifting -->
+            <a href="http://sf.cityvoter.com/best/gym/fitness/bay-area" target="_blank">
+              <div class="container">
+                <img src="https://z9u1l3wusky40y46t31hrkw2-wpengine.netdna-ssl.com/wp-content/uploads/2017/07/woman-weightlifting-weightlifting-for-women-Ep.11-How-to-do-a-military-press-by-healthista.com_.png" style="width:100%" alt="woman with weights">
+                <div class="middle">
+                  <div class="text">Weightlifting</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+
+
+
+          <h3 class="section_heading">Art</h3>
+          <div class="row">
+
+            <!-- learn to draw -->
+            <div class="column">
+              <a href="https://www.expertise.com/ca/san-francisco/painting-and-drawing-classes" target="_blank">
+                <div class="container">
+                  <img src="http://feedinspiration.com/wp-content/uploads/2015/05/contemporary-artist-beautiful-female-woman-in-vivid-red-portrait-oil-painting.jpg" style="width:100%" alt="pretty painting of a woman">
+                  <div class="middle">
+                    <div class="text">Learn to Draw and Paint</div>
+                  </div>
+                </div>
+              </a>
+
+              <!-- learn to sew -->
+              <a href="http://www.stonemountainfabric.com/guide-to-bay-area-sewing-classes.htm" target="_blank">
+                <div class="container">
+                  <img src="https://images.pexels.com/photos/531759/pexels-photo-531759.jpeg?cs=srgb&dl=fashion-blue-pattern-531759.jpg&fm=jpg" style="width:100%" alt="the stitches on jeans">
+                  <div class="middle">
+                    <div class="text">Take Up Sewing</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="column">
+
+              <!-- learn to sculpt or do pottery -->
+              <a href="https://sanfrancisco.cbslocal.com/top-lists/best-ceramics-classes-for-adults-in-the-bay-area/" target="_blank">
+                <div class="container">
+                  <img src="https://cdn.pixabay.com/photo/2018/03/27/12/12/cup-3265835__340.jpg" style="width:100%" alt="pretty blue and gold tea set">
+                  <div class="middle">
+                    <div class="text">Make Pottery</div>
+                  </div>
+                </div>
+              </a>
+
+              <!-- art shows -->
+              <div class="container">
+                <img src="pow_woman.jpg" style="width:100%" alt="woman with sunglasses and a city landscape in her hair">
+                <div class="middle">
+                  <div class="text">Go to an Art Show</div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+
+              <!-- makeup lessons -->
+              <a href="https://www.sephora.com/store-locations-events/store-locations-events?tab=classes" target="_blank">
+                <div class="container">
+                  <img src="https://i.mdel.net/i/db/2017/3/666128/666128-800w.jpg" style="width:100%" alt="sephora model portrait">
+                  <div class="middle">
+                    <div class="text">Take Makeup Lessons</div>
+                  </div>
+                </div>
+              </a>
+
+              <!-- photography lessons -->
+              <a href="http://www.dvilladsenphotography.com/10-best-photography-locations-san-francisco-bay-area/" target="_blank">
+                <div class="container">
+                  <img src="https://petapixel.com/assets/uploads/2015/04/filmcamera.jpg" style="width:100%" alt="fancy vintage camera">
+                  <div class="middle">
+                    <div class="text">Photography</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+        <h3 class="section_heading">Socialize</h3>
+          <div class="row">
+            <div class="column">
+
+              <!-- join a club -->
+              <a href="http://www.december.com/places/sfo/activities.html" target="_blank">
+                <div class="container">
+                  <img src="https://www.marinerschristianschool.com/wp-content/uploads/2017/04/Copy-of-IMG_9976-e1491343924982.jpg" style="width:100%" alt="five people smiling at a camera">
+                  <div class="middle">
+                    <div class="text">Join a Club</div>
+                  </div>
+                </div>
+              </a>
+              <!-- hanging out with animals -->
+              <a href="https://www.eventbrite.com/rally/san-francisco/where-to-play-with-animals-in-the-bay-area/" target="_blank">
+                <div class="container">
+                  <img src="https://i.pinimg.com/originals/cb/e7/0d/cbe70dfb96bfc29d2924e91b15fcb51f.jpg" style="width:100%" alt="a rabbit, mouse, kitten, and puppy on a white table. They all are white with brown spots and/or lines">
+                  <div class="middle">
+                    <div class="text">Hang with Animals</div>
+                  </div>
+                </div>
+              </a>
+
+              </div>
+
+              <div class="column">
+
+                <!-- helping others -->
+                <a href="https://www.handsonbayarea.org/calendar" target="_blank">
+                  <div class="container">
+                    <img src="https://www.theprogress.com/wp-content/uploads/2017/04/web1_Poster-Red-Cross.jpg" style="width:100%" alt="a boy stands by a man's leg as a woman in a red cross uniform offers him water">
+                    <div class="middle">
+                      <div class="text">Help Others</div>
+                    </div>
+                  </div>
+                </a>
+                <!-- meetup -->
+                <a href="https://www.meetup.com/" target="_blank">
+                  <div class="container">
+                    <img src="https://cdn.washingtoncitypaper.com/files/base/scomm/wcp/image/2017/03/640w/IMG_1685.58b8405d2f987.jpg" style="width:100%" alt="a group of people sitting outside of some windows. They are all leaning up against a wall and have books open while listening to a woman, close to the front of the image, talk.">
+                    <div class="middle">
+                      <div class="text">Meetup App</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+
+              <div class="column">
+
+                <!-- cat cafe  -->
+                <a href="https://travel.mapquest.com/2016/08/04/relax-with-cats-in-bay-areas-cat-cafes/" target="_blank">
+                  <div class="container">
+                    <img src="https://laughingsquid.com/wp-content/uploads/2014/04/cat-cafe-mug.jpg" style="width:100%" alt="a white cat on a table staring into a cofee cup">
+                    <div class="middle">
+                      <div class="text">Cats and Coffee</div>
+                    </div>
+                  </div>
+                </a>
+                <!-- plan a party -->
+                <a href="https://www.marthastewart.com/275412/party-planning-guide" target="_blank">
+                  <div class="container">
+                    <img src="http://letspartymagazine.com/wp-content/uploads/Dance%20Party.jpg" style="width:100%" alt="woman dancing at a party">
+                    <div class="middle">
+                      <div class="text">Plan a Party</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+          </div>
+
+
+
+            <h3 class="section_heading">Relax</h3>
+              <div class="row">
+                <div class="column">
+
+                  <!-- yoga -->
+                  <a href="http://www.mcguire.com/blog/2017/07/yoga-studios-bay-area/" target="_blank">
+                    <div class="container">
+                      <img src="http://www.rebellesociety.com/wp-content/uploads/2015/10/wp-content-uploads-2014-05-san-quentin-robert-sturman1.jpg" style="width:100%" alt="a man on a blue mat in a plank position so that he is looking at the camera">
+                      <div class="middle">
+                        <div class="text">Yoga</div>
+                      </div>
+                    </div>
+                  </a>
+
+                  <!-- listen to music -->
+                  <a href="https://www.tomsguide.com/us/pictures-story/643-best-music-apps.html" target="_blank">
+                    <div class="container">
+                      <img src="https://mikeshouts.com/wp-content/uploads/2015/09/AudioQuest-NightHawk-Audiophile-Gaming-Headphones-image-1.jpg" style="width:100%" alt="headphones with lamenant wood detail next to a laptop">
+                      <div class="middle">
+                        <div class="text">Listen to Music</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="column">
+
+                  <!-- drink tea -->
+                  <a href="https://www.swansonvitamins.com/blog/jenna/tea-mood" target="_blank">
+                    <div class="container">
+                      <img src="https://i.pinimg.com/originals/22/a2/56/22a256372165404a954cd16e0f338984.jpg" style="width:100%" alt="a birds eye view of tea, a plant, and Macbeth">
+                      <div class="middle">
+                        <div class="text">Drink Tea</div>
+                      </div>
+                    </div>
+                  </a>
+
+                  <!-- spa -->
+                  <a href="https://sf.racked.com/maps/bay-area-luxury-spas" target="_blank">
+                    <div class="container">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXUZU3wpSOXOTOfQ28xngKQkI0VKbadNb1oOXkEyfUdiyHydtBmA" style="width:100%" alt="a woman with her hair in a towel getting a green mask applied to her face">
+                      <div class="middle">
+                        <div class="text">Spa Day</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="column">
+
+                  <!-- watch a move -->
+                  <a href="https://www.cinemark.com/california-bay-area" target="_blank">
+                    <div class="container">
+                      <img src="https://static2.srcdn.com/wordpress/wp-content/uploads/Drive-In-Theater.jpg" style="width:100%" alt="a retro drive in theater">
+                      <div class="middle">
+                        <div class="text">Go to the Movie</div>
+                      </div>
+                    </div>
+                  </a>
+
+                  <!-- meditate -->
+                  <a href="https://www.pacificpause.com/blog/2018/2/7/the-best-retreats-in-the-bay-area-for-a-dose-of-mindfulness-meditation" target="_blank">
+                    <div class="container">
+                      <img src="https://cdn.shopify.com/s/files/1/0271/4841/files/smr-1_large.jpg?10313196800634475970" style="width:100%" alt="a woman praying in front of an alter">
+                      <div class="middle">
+                        <div class="text">Meditate</div>
+                      </div>
+                    </div>
+                  </a>
+
+                </div>
+                <div class="column">
+                </div>
+              </div>
+
+        </div>
+    </content>
+  </body>
+</html>
